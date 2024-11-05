@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Escola DNC</title>
+</head>
+
+<body>
+    <!------------------------------ Menu Superior-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="MenuSuperior">
+        <a href="https://www.escoladnc.com.br"><img src="imagem/logo.svg" id="logo" alt="Erro"></a>
+        <script src="index.js"></script>
+        <h1 id="titulo-menusuperior"> Dê os primeiros passos da <br> 
+            sua carreira em Tecnologia</h1>
+        <p id="texto-menusuperior">Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais<br> 
+            fundamentos para construir experiências efetivas.</p>
+    </div>
+
+    <!------------------------------ Menu Informacional-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="MenuInformacional">        
+        <p class="TextoInformativo"> <img src="Icones/certificado.svg" class="Icone" id="certificado" alt=""> Certificado de conclusão</p>      
+        <p class="TextoInformativo">  <img src="Icones/relogio.svg" class="Icone" id="relogio" alt=""> 4 horas de conteúdo</p>     
+        <p class="TextoInformativo"> <img src="Icones/camera.svg" class="Icone" id="camera" alt=""> Aulas online gravadas</p>
+    </div>
+
+    <!------------------------------ Seção Video-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="SecaoVideo">
+        <iframe id="Video" width="502" height="401" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h1 id="TituloVideo">
+                Aprenda com especialistas e <br>
+                comece seu primeiro projeto
+            </h1>
+            <p id="TextoVideo">Conheça o processo de desenvolvimento e entenda como utilizar <br> 
+               os principais métodos e ferramentas da área para resolver <br>
+               problemas complexos.
+    
+                Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+    <!------------------------------ Carrosel-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="Carrosel">
+        <h1 id="TituloCarrosel"> Mais de 500 alunos já iniciaram seus estudos </h1>
+     <!------------------------------ Divisão dos Cards-------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div id="Div-Card">
+            <img id="seta-esquerda" class="seta" src="Icones/setaEsquerda.svg" alt="">
+            <img id="Leonardo" class="Card" src="Cards/Leonardo.svg" alt="">
+            <img  id="Samantra" class="Card" src="Cards/Samantra.svg" alt="">
+            <img id="Bruna" class="Card" src="Cards/Bruna.svg" alt="">
+            <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="Icones/setaDireita.svg" alt="">
+        </div>
+    </div>
+    <script src="index.js"></script>
+        
+
+</body>
+</html>

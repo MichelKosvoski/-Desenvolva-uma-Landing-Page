@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#MenuSuperior{
+    background-image: url(imagem/menu-fundo-superio.svg);
+    color: aliceblue;
+}
+
+#MenuInformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.Icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#SecaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.TextoInformativo{
+    display: flex;
+    align-items: center;
+}
+
+#TituloVideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+
+#Video{
+    margin: 50px 25px 50px 100px;
+}
+
+#Carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#TituloCarrosel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Div-Card{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.Card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+}
+
+
+
+
+
+
