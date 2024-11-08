@@ -88,8 +88,53 @@
 
 .seta{
     margin-top: 55%;
+    cursor: pointer;
 }
 
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+#Formulario{
+    text-align: center;
+}
+
+#TituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}   
+
+.input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3393bd;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1f0f4996;
+    transition-duration: 0.5s;
+}
 
 
 
